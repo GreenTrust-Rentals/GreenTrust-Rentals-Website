@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginStyle.css">
+    <title>Login</title>
+    <script>
+        function redirectToHomePage() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("Password").value;
+
+            if (username == "rutuja" && password == "rutuja") {
+                window.location.href = "home.html";
+            } else {
+                alert("Please enter both username and password.");
+            }
+
+            return false; 
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-side">
+            
+        </div>
+        <div class="content-side">
+           <div class="login-heading">
+            <img src="GTlogo.png" alt="GreenTrust" title="GreenTrust">
+           </div>
+           <p id="sub-heading-1">Login</p>
+           <p id="sub-heading-2">Log to your account</p>
+           <p id="sub-heading-3">Thank you for getting back to GreenTrust, let's access our best recommendations for you</p>
+           <div class="form">
+            <form onsubmit="return redirectToHomePage()">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="UserName" class="username" placeholder="Email or Phone Number" required>
+               
+                <label for="Password">Password</label><br>
+                <input type="password" id="Password" name="Password" class="Password" placeholder="Password" required>
+
+                <div class="rememberme">
+                    <div class="rem">
+                        <input type="checkbox" id="remember-me-check">
+                        <label for="remember-me" id="rem">Remember me</label>
+                    </div>
+                    <p id="reset-password">Reset Password?</p>
+                </div>
+
+                <button type="submit" name="submit" class="submit">Sign In</button>
+                    
+            </form>
+           </div>
+           
+           
+         <p id="footer">Don't have an account yet? <a href="registration.html">Register here</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
