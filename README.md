@@ -1,5 +1,5 @@
 # GreenTrust Rentals
-![image]([https://github.com/prajudarekar04/Wallet_Manager/assets/114302180/086b0589-5a69-411f-a0ee-7870481e712d])
+![image]([https://github.com/prajudarekar04/Wallet_Manager/assets/114302180/086b0589-5a69-411f-a0ee-7870481e712d](https://github.com/GreenTrust-Rentals/GreenTrust-Rentals-Website/blob/main/GTlogo.png))
 ## Problem Statement : 
 Agri-Equipments Rental System for Farmer <br />
 ## Problem Description : <br />
